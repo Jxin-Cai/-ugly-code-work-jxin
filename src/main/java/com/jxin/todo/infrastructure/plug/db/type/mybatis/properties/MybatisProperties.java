@@ -1,4 +1,4 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.properties;
+package com.jxin.todo.infrastructure.plug.db.type.mybatis.properties;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

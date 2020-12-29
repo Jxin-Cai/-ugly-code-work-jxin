@@ -1,8 +1,8 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.selector;
+package com.jxin.todo.infrastructure.plug.db.selector;
 
-import com.jxin.faas.scheduler.infrastructure.plug.db.annotation.EnableMutilDb;
-import com.jxin.faas.scheduler.infrastructure.plug.db.consts.PersistentTypeEnum;
-import com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.configuration.MybatisMutilDataSourceConfiguration;
+import com.jxin.todo.infrastructure.plug.db.annotation.EnableMutilDb;
+import com.jxin.todo.infrastructure.plug.db.consts.PersistentTypeEnum;
+import com.jxin.todo.infrastructure.plug.db.type.mybatis.configuration.MybatisMutilDataSourceConfiguration;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 

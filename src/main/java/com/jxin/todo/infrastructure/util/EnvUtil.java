@@ -1,4 +1,4 @@
-package com.jxin.faas.scheduler.infrastructure.util;
+package com.jxin.todo.infrastructure.util;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

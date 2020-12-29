@@ -1,7 +1,7 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.annotation;
+package com.jxin.todo.infrastructure.plug.db.annotation;
 
-import com.jxin.faas.scheduler.infrastructure.plug.db.consts.PersistentTypeEnum;
-import com.jxin.faas.scheduler.infrastructure.plug.db.selector.MutilDbImportSelector;
+import com.jxin.todo.infrastructure.plug.db.consts.PersistentTypeEnum;
+import com.jxin.todo.infrastructure.plug.db.selector.MutilDbImportSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

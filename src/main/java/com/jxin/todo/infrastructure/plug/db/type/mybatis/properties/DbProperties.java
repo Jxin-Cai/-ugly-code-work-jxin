@@ -1,6 +1,6 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.properties;
+package com.jxin.todo.infrastructure.plug.db.type.mybatis.properties;
 
-import com.jxin.faas.scheduler.infrastructure.plug.db.consts.HikariCpDefaultConfigConsts;
+import com.jxin.todo.infrastructure.plug.db.consts.HikariCpDefaultConfigConsts;
 import lombok.Data;
 
 import javax.validation.constraints.NotNull;

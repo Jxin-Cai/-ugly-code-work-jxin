@@ -1,11 +1,11 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.configuration;
+package com.jxin.todo.infrastructure.plug.db.type.mybatis.configuration;
 
 import com.google.common.base.Strings;
-import com.jxin.faas.scheduler.infrastructure.plug.db.consts.HikariCpDefaultConfigConsts;
-import com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.properties.DbProperties;
-import com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.properties.MutilDbProperties;
-import com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.properties.MybatisProperties;
-import com.jxin.faas.scheduler.infrastructure.util.EnvUtil;
+import com.jxin.todo.infrastructure.plug.db.consts.HikariCpDefaultConfigConsts;
+import com.jxin.todo.infrastructure.plug.db.type.mybatis.properties.DbProperties;
+import com.jxin.todo.infrastructure.plug.db.type.mybatis.properties.MutilDbProperties;
+import com.jxin.todo.infrastructure.plug.db.type.mybatis.properties.MybatisProperties;
+import com.jxin.todo.infrastructure.util.EnvUtil;
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.slf4j.Slf4j;
 import net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator;

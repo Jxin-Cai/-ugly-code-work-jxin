@@ -1,6 +1,6 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.consts;
+package com.jxin.todo.infrastructure.plug.db.consts;
 
-import com.jxin.faas.scheduler.infrastructure.plug.db.type.mybatis.properties.JdbcPoolConfigProperties;
+import com.jxin.todo.infrastructure.plug.db.type.mybatis.properties.JdbcPoolConfigProperties;
 
 import java.util.function.Supplier;
 

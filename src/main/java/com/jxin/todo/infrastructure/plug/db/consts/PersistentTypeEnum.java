@@ -1,4 +1,4 @@
-package com.jxin.faas.scheduler.infrastructure.plug.db.consts;
+package com.jxin.todo.infrastructure.plug.db.consts;
 
 /**
  * 持久层框架类型枚举类
