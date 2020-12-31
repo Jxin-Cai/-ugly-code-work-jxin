@@ -1,11 +1,6 @@
-server:
-  port: 80
-  servlet:
-    context-path: /faas
-
 spring:
   application:
-    name: faas-scheduler
+    name: todo-manager
   h2:
     console:
       ## 开启h2 console跟踪,方便调试,默认 false
@@ -34,7 +29,7 @@ spring:
   #数据库连接配置
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:faas;DB_CLOSE_DELAY=1000;MODE=MySQL;DATABASE_TO_LOWER=TRUE
+    url: jdbc:h2:mem:todo;DB_CLOSE_DELAY=1000;MODE=MySQL;DATABASE_TO_LOWER=TRUE
     username: sa
     password:
 

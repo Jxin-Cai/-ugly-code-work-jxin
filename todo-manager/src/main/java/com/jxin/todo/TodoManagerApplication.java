@@ -1,12 +1,9 @@
 package com.jxin.todo;
 
-import com.jxin.todo.infrastructure.plug.db.annotation.EnableMutilDb;
-import com.jxin.todo.infrastructure.plug.db.consts.PersistentTypeEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -18,7 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
-@EnableMutilDb(type = PersistentTypeEnum.MYBATIS)
+// @EnableMutilDb(type = PersistentTypeEnum.MYBATIS)
 @Slf4j
 public class TodoManagerApplication {
     public static void main(String[] args) {
