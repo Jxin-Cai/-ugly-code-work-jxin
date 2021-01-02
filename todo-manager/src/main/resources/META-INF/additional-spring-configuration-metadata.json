@@ -1,3 +1,10 @@
 {
-  "properties": []
+  "properties": [
+    {
+      "name": "item.rep.invokeName",
+      "type": "java.lang.String",
+      "defaultValue": "memTodoItemRepository",
+      "description": "todoItem仓储实现接口的实现类服务名."
+    }
+  ]
 }

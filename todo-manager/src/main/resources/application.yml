@@ -29,21 +29,31 @@ spring:
   #数据库连接配置
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:todo;DB_CLOSE_DELAY=1000;MODE=MySQL;DATABASE_TO_LOWER=TRUE
+    url: jdbc:h2:file:./db/todo_manager;DB_CLOSE_DELAY=1000;MODE=MySQL;DATABASE_TO_LOWER=TRUE
     username: sa
     password:
 
 
 dbs:
   todo:
-    url: jdbc:h2:mem:todo;DB_CLOSE_DELAY=1000;MODE=MySQL;DATABASE_TO_LOWER=TRUE
+    url: jdbc:h2:file:./db/todo_manager;;DB_CLOSE_DELAY=1000;MODE=MySQL;DATABASE_TO_LOWER=TRUE
     username: sa
     password:
     mybatis:
       configLocation: sqlMapConfig.xml
-      mapperLocations: classpath:mapper/*.xml
-      mapperScanner:
+      mapperLocations: classpath:mapper/file/*.xml
+      mapperScanner: com.jxin.todo.domain.item.repository.persistence.impl.file.mapper
     pool:
       driverClassName: org.h2.Driver
       maximumPoolSize: 200
+
+
+
+# 本地项目参数
+#业务
+#技术
+item:
+  rep:
+    #invokeName: memTodoItemRepository
+    invokeName: fileTodoItemRepository
 
